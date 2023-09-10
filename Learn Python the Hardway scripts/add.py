@@ -1,0 +1,5 @@
+print("We will get the sum of two numbers")
+x= input ("input first number> ")
+y = input ("input second number> ")
+add_opera =int(x) + int(y)
+print(f"The sum is {add_opera}")

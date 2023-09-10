@@ -1,0 +1,3 @@
+This is really cool stuff that has been typed here,
+To be honest the joy in seeing code work is seriously satisfying.
+Lots and lots of problems will be solved with the knowledge of python
