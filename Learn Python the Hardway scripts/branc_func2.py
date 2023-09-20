@@ -58,8 +58,11 @@ def volcra_room():
     if "flee" == choice:
         print("Good one")
         start()
-    if "head" == choice:
+    elif "head" == choice:
         dead("Yummm, the volcra has your head.")
+
+    else:
+        print("I don't quite understand your input")    
 
 
 
@@ -73,5 +76,15 @@ def start():
     print("Choose one left OR right") 
     choice = input(">")
 
-    for            
+    if "right" in choice:
+        print("You went down this path")
+        bear_tunnel()           
 
+    elif "left" in choice:
+        print("You went down this sad path")
+        volcra_room()
+
+    else:
+        dead("You stumble and fall in the darkness")  
+
+start()                  
