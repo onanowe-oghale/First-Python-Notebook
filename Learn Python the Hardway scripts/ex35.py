@@ -5,13 +5,9 @@ from sys import exit
 def gold_room():
     print("This room is full of gold, How much do you take ?")
 
-    choice = input("> ")
-    if "0" in choice or "1" in choice:
-        how_much = int(choice)
-    else:
-        dead("Man, Learn to type a number.")
-
-    if how_much < 50 :
+    choice = int(input("> "))
+    
+    if choice < 50 :
         print("Nice, you're not greedy, you win!")
         exit(0)
     else:
@@ -60,7 +56,7 @@ def dead(why):
 
 def start():
     print("You are in a dark room.")
-    print("There is a door to you right and left. ")
+    print("There is a door to your right and left. ")
     print("Which one do you take ?")
 
     choice = input("> ")
