@@ -1,0 +1,35 @@
+A class is a way to take a grouping of functions and data and place them inside a container so you can access them with the dot(.) operator
+
+modules are python files with some functions or some variables in it...
+
+you import that file 
+the function variables in that module can be accessed with the dot operator,,
+
+to import a function in another py file as a module then use it in outd to perform operations in a dictionary we say
+mystuff['apple'] to get value from the stuff dictionary using the apple key
+mystuff.apple() to get the apple from the module.
+
+modules and dictionaries are similar in that they take a key  = value style container
+Get something out of it by the key's name
+
+Dictionary [key], in modules .key - this is the syntax we use.
+
+Modules are like dictionaries
+
+to get a variable in the module file named mystuff for example which has a name assigned to it tanngerine we then say: print(mystuff.tangerine), this gives us what we need as against calling the functions name from the file which would be print(mystuff[tangerine])
+
+we use:
+mystuff['apple']- to get apple from the dictionary
+mystuff.apple() - to get apple from the module
+mystuff.tangerine - we use this to get from a variable
+
+in python this means we get things out by using the Keys name.
+in the case of a dictionary the key is a string and the syntax is [key]. in the case of a module, the key is an identifier and the syntax is .key
+- [key] for dictionary
+- .key for modules after in has been imported..
+
+----------------------------------------------------------------
+you can think about a module as a specialized dictionary that can store python code so you can access it with the . operator. 
+
+------------------------------------------------------------------
+python class are just like modules a way of grouping functions and data and placing them inside a container so you can access them with the dot
