@@ -1,0 +1,9 @@
+In python 3 you do not need to add (object) after the name of the class,
+but the python community believes in something that is very clear and without vagueness or ambiguity
+is better than something that is understood, but not described clearly or directly, and often using implication or assumption.
+class codes that do not have the (Object) would still run perfectly. It is at this point simply just extra documentation and has no impact on how our classes work.
+
+
+class name (object) - This means that class name is a class of type object
+just think of class name(object) as saying this is a basic simple class.
+
